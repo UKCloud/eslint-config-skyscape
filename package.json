@@ -1,0 +1,40 @@
+{
+  "name": "eslint-config-skyscape",
+  "version": "0.1.0",
+  "description": "Skyscape Cloud Services ESLint configuration",
+  "main": "index.js",
+  "author": "Skyscape Cloud Services Limited",
+  "contributors": [
+    {
+      "name": "Sid Wood",
+      "email": "sidwood@me.com"
+    }
+  ],
+  "license": "MIT",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint . --max-warnings 0",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skyscape-cloud-services/eslint-config-skyscape.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skyscape-cloud-services/eslint-config-skyscape/issues"
+  },
+  "homepage": "https://github.com/skyscape-cloud-services/eslint-config-skyscape#readme",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslintconfig",
+    "skyscape"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "eslint": "^1.10.0"
+  },
+  "peerDependencies": {
+    "eslint": "^1.10.0"
+  }
+}
