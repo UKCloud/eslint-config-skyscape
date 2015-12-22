@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-skyscape",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Skyscape Cloud Services ESLint configuration",
   "main": "index.js",
   "author": "Skyscape Cloud Services Limited",
