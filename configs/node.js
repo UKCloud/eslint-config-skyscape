@@ -36,6 +36,7 @@ module.exports = {
     spread: true,
     superInFunctions: true,
     templateStrings: true,
+    globalReturn: false,
     jsx: false
   },
   'globals': {},
