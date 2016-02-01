@@ -2,13 +2,13 @@
 
 module.exports = {
   'extends': [
-    'eslint-config-skyscape/rules/best-practices.js',
-    'eslint-config-skyscape/rules/ecmascript-6.js',
-    'eslint-config-skyscape/rules/nodejs-commonjs.js',
-    'eslint-config-skyscape/rules/possible-errors.js',
-    'eslint-config-skyscape/rules/strict-mode.js',
-    'eslint-config-skyscape/rules/stylistic-issues.js',
-    'eslint-config-skyscape/rules/variables.js'
+    'skyscape/rules/best-practices.js',
+    'skyscape/rules/ecmascript-6.js',
+    'skyscape/rules/nodejs-commonjs.js',
+    'skyscape/rules/possible-errors.js',
+    'skyscape/rules/strict-mode.js',
+    'skyscape/rules/stylistic-issues.js',
+    'skyscape/rules/variables.js'
   ],
   'env': {
     browser: false,
