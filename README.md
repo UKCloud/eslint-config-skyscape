@@ -12,7 +12,8 @@ Create the following `.eslintrc` file in your project root.
 
 ```json
 {
-  "extends": "skyscape"
+  "extends": "skyscape",
+  "root": true
 }
 ```
 
