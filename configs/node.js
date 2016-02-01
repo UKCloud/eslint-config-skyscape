@@ -32,6 +32,7 @@ module.exports = {
     octalLiterals: true,
     regexUFlag: true,
     regexYFlag: true,
+    restParams: false,
     spread: true,
     superInFunctions: true,
     templateStrings: true,
