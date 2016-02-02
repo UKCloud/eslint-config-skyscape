@@ -5,10 +5,7 @@
   "main": "index.js",
   "author": "Skyscape Cloud Services Limited",
   "contributors": [
-    {
-      "name": "Sid Wood",
-      "email": "sidwood@me.com"
-    }
+    "Sid Wood <swood@skyscapecloud.com>"
   ],
   "license": "MIT",
   "scripts": {
