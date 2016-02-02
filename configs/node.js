@@ -2,18 +2,12 @@
 
 module.exports = {
   'extends': [
-    'skyscape/rules/best-practices.js',
+    'skyscape/configs/core.js',
     'skyscape/rules/ecmascript-6.js',
-    'skyscape/rules/nodejs-commonjs.js',
-    'skyscape/rules/possible-errors.js',
-    'skyscape/rules/strict-mode.js',
-    'skyscape/rules/stylistic-issues.js',
-    'skyscape/rules/variables.js'
+    'skyscape/rules/nodejs-commonjs.js'
   ],
   'env': {
-    browser: false,
-    node: true,
-    es6: false
+    node: true
   },
   'ecmaFeatures': {
     arrowFunctions: true,
@@ -39,6 +33,8 @@ module.exports = {
     globalReturn: false,
     jsx: false
   },
-  'globals': {},
-  'rules': {}
+  'globals': {
+  },
+  'rules': {
+  }
 };
