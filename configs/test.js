@@ -1,11 +1,11 @@
 'use strict';
 
 module.exports = {
-  'env': {
+  env: {
     mocha: true,
     jasmine: true
   },
-  'rules': {
+  rules: {
     'max-nested-callbacks': 0,
     'no-magic-numbers': 0,
     'no-process-env': 0,

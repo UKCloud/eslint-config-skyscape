@@ -81,7 +81,7 @@ module.exports = {
     'space-infix-ops': [2, {int32Hint: false}],
     'space-return-throw-case': 2,
     'space-unary-ops': [2, {words: true, nonwords: false}],
-    'spaced-comment': [2, 'always', {'exceptions': ['+', '-', '=']}],
+    'spaced-comment': [2, 'always', {exceptions: ['+', '-', '=']}],
     'wrap-regex': 2
   }
 };
