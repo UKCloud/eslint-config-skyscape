@@ -1,3 +1,4 @@
 {
-  "extends": "skyscape"
+  "extends": "skyscape",
+  "root": true
 }
