@@ -8,12 +8,12 @@ module.exports = {
     browser: true,
     jquery: true
   },
-  'ecmaFeatures': {
-  },
   'globals': {
   },
+  'parserOptions': {
+  },
   'rules': {
-    'strict': [2, 'function'],
-    'spaced-comment': 0
+    'strict': ['error', 'function'],
+    'spaced-comment': 'off'
   }
 };

@@ -10,7 +10,7 @@ module.exports = {
   ],
   'env': {
   },
-  'ecmaFeatures': {
+  'parserOptions': {
   },
   'globals': {
   },

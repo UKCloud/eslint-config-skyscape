@@ -29,9 +29,9 @@
   "dependencies": {
   },
   "devDependencies": {
-    "eslint": "^1.10.0"
+    "eslint": "^2.3.0"
   },
   "peerDependencies": {
-    "eslint": "^1.10.0"
+    "eslint": "^2.3.0"
   }
 }

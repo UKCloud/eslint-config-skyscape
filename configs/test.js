@@ -6,9 +6,9 @@ module.exports = {
     jasmine: true
   },
   rules: {
-    'max-nested-callbacks': 0,
-    'no-magic-numbers': 0,
-    'no-process-env': 0,
-    'no-undefined': 0
+    'max-nested-callbacks': 'off',
+    'no-magic-numbers': 'off',
+    'no-process-env': 'off',
+    'no-undefined': 'off'
   }
 };
