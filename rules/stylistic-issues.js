@@ -19,7 +19,7 @@ module.exports = {
       min: 2,
       max: 35,
       properties: 'always',
-      exceptions: ['_', 'i']
+      exceptions: ['_', 'i', 'P']
     }],
     'id-match': 'off',
     'indent': ['error', 2, {SwitchCase: 1}],
