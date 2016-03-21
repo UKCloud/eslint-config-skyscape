@@ -36,7 +36,10 @@ module.exports = {
     'no-labels': 'off',
     'no-lone-blocks': 'error',
     'no-loop-func': 'error',
-    'no-magic-numbers': ['error', {enforceConst: true}],
+    'no-magic-numbers': ['error', {
+      enforceConst: true,
+      ignoreArrayIndexes: true
+    }],
     'no-multi-spaces': 'error',
     'no-multi-str': 'error',
     'no-native-reassign': 'error',
