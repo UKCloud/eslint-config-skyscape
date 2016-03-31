@@ -78,7 +78,7 @@ module.exports = {
     'require-jsdoc': 'off',
     'semi': ['error', 'always'],
     'semi-spacing': ['error', {before: false, after: true}],
-    'sort-imports': ['error', {ignoreCase: false}],
+    'sort-imports': 'off',
     'sort-vars': ['error', {ignoreCase: false}],
     'space-before-blocks': 'error',
     'space-before-function-paren': ['error', 'never'],
