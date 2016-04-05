@@ -14,7 +14,7 @@ module.exports = {
     'eol-last': 'error',
     'func-names': 'off',
     'func-style': 'off',
-    'id-blacklist': ['error', 'data', 'obj'],
+    'id-blacklist': 'off',
     'id-length': ['error', {
       min: 2,
       max: 35,
