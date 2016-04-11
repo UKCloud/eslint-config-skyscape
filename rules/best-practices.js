@@ -38,7 +38,8 @@ module.exports = {
     'no-loop-func': 'error',
     'no-magic-numbers': ['error', {
       enforceConst: true,
-      ignoreArrayIndexes: true
+      ignoreArrayIndexes: true,
+      ignore: [-1, 0, 1, 42]
     }],
     'no-multi-spaces': 'error',
     'no-multi-str': 'error',
