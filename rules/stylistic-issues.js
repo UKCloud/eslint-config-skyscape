@@ -40,7 +40,7 @@ module.exports = {
       allowArrayEnd: false
     }],
     'max-depth': ['error', 3],
-    'max-len': ['error', {code: 80, tabWidth: 4, ignoreUrls: true}],
+    'max-len': ['error', {code: 120, tabWidth: 4, ignoreUrls: true}],
     'max-nested-callbacks': ['error', 3],
     'max-params': ['error', 4],
     'max-statements': ['error', 15],
